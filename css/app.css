@@ -36,6 +36,7 @@ h1, h2 {
 
 .main-content {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .heading-marg {
@@ -1030,12 +1031,11 @@ button:hover:before {
 /**/
 /* icons */
 /**/
-.sky-tabs > label .fa {
+.sky-tabs > label .fas {
   display: block;
   float: left;
   width: 18px;
   margin: 0 12px 0 -6px;
-  font-family: FontAwesome;
   font-style: normal;
   font-size: 16px;
   line-height: 45px;
@@ -1051,9 +1051,9 @@ button:hover:before {
   .sky-tabs > label span span {
     padding: 0 15px;
   }
-  .sky-tabs > label .fa {
+  .sky-tabs > label .fas {
     margin-right: 10px;
-    margin-left: -5px;
+    margin-left: 12px;
   }
 }
 
@@ -1145,3 +1145,14 @@ button:hover:before {
     -webkit-transform: rotateX(-90deg);
   }
 }
+
+
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+

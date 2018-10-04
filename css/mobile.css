@@ -5,6 +5,10 @@
     padding-right: 0px;
   }
 
+  .main-content {
+    flex-wrap: wrap;
+  }
+
   img.App-logo {
     height: 60px;
   }
@@ -172,6 +176,10 @@
     max-width: 340px;
   }
 
+  .main-content {
+    flex-wrap: wrap;
+  }
+
   img.App-logo {
     height: 60px;
   }
@@ -201,6 +209,10 @@
 @media screen and (min-width: 420px) {
   .container {
     max-width: 380px;
+  }
+
+  .main-content {
+    flex-wrap: wrap;
   }
 
   img.App-logo {
@@ -236,6 +248,10 @@
 @media screen and (min-width: 500px) {
   .container {
     max-width: 480px;
+  }
+
+  .main-content {
+    flex-wrap: wrap;
   }
 
   img.App-logo {
@@ -293,6 +309,10 @@
     max-width: 750px;
   }
 
+  .main-content {
+    flex-wrap: wrap;
+  }
+
   img.App-logo {
     height: 100px;
   }
@@ -347,6 +367,10 @@
 @media screen and (min-width: 992px) {
   .container {
     max-width: 970px;
+  }
+
+  .main-content {
+    flex-wrap: unset;
   }
 
   img.App-logo {
