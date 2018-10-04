@@ -1,0 +1,494 @@
+@media screen and (min-width: 320px) {
+  .container {
+    max-width: 300px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  img.App-logo {
+    height: 60px;
+  }
+
+  .coming-text {
+    font-size: 40px;
+  }
+
+  .sub-text {
+    font-size: 16px;
+  }
+
+  .backdrop {
+    padding: 10vh 5px !important;
+  }
+
+  .modal-container {
+    height: 440px;
+    width: 300px;
+  }
+
+  .google-form {
+    height: 615px;
+    width: 370px;
+    margin-top: 10px;
+  }
+
+  .twitter-zone {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    min-width: 260px;
+  }
+
+  .updates h2 {
+    text-align: center;
+  }
+
+  .sign-up-btn {
+    width: 90% !important;
+  }
+
+  .sign-up-btn, .call-out {
+    margin: 0 auto;
+  }
+
+  .call-out {
+    width: unset !important;
+    margin: 0px !important;
+  }
+  .call-out img {
+    height: 40px;
+  }
+
+  .popup-section .popup-icon-col {
+    max-width: 60px !important;
+  }
+
+  .nav-bar .nav-container .top-nav .nav-date {
+    display: none !important;
+  }
+
+  .image-area {
+    display: none !important;
+  }
+
+  .text-block {
+    padding-bottom: 20px !important;
+  }
+
+  .nav-bar .nav-container {
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+    -webkit-flex-direction: row !important;
+        -ms-flex-direction: row !important;
+            flex-direction: row !important;
+  }
+
+  .nav-bar .nav-container .nav-menu .nav-small div[role=button] {
+    position: -webkit-sticky !important;
+    position: sticky !important;
+  }
+
+  .nav-bar .nav-container .nav-menu {
+    margin: -10px 20px 0px 0px !important;
+    display: -webkit-box !important;
+    display: -webkit-flex !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-flex: 1 !important;
+    -webkit-flex: 1 !important;
+        -ms-flex: 1 !important;
+            flex: 1 !important;
+    -webkit-box-pack: end !important;
+    -webkit-justify-content: flex-end !important;
+        -ms-flex-pack: end !important;
+            justify-content: flex-end !important;
+    -webkit-box-align: baseline !important;
+    -webkit-align-items: baseline !important;
+        -ms-flex-align: baseline !important;
+            align-items: baseline !important;
+  }
+
+  .nav-bar .nav-container .top-nav {
+    padding-bottom: 10px;
+    margin-top: -10px;
+  }
+
+  .parking-map {
+    height: 300px !important;
+  }
+
+  .venue-map {
+    height: 180px !important;
+    margin-top: 20px;
+  }
+
+  .hotel-img {
+    width: 100%;
+  }
+
+  .amnenities-list {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+    -webkit-flex-direction: column !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  .amnenities-list img {
+    height: unset !important;
+    width: 100%;
+  }
+
+  .section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: column-reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+
+  .hero header {
+    height: 1700px;
+  }
+
+  .venue-section {
+    padding: 50px 0px 10px 0px !important;
+  }
+
+  .venue-hotel {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+@media screen and (min-width: 380px) {
+  .container {
+    max-width: 340px;
+  }
+
+  img.App-logo {
+    height: 60px;
+  }
+
+  .coming-text {
+    font-size: 40px;
+  }
+
+  .sub-text {
+    font-size: 16px;
+  }
+
+  .backdrop {
+    padding: 10vh 5px;
+  }
+
+  .modal-container {
+    height: 435px;
+    width: 330px;
+  }
+
+  .google-form {
+    width: 395px;
+    margin-top: 10px;
+  }
+}
+@media screen and (min-width: 420px) {
+  .container {
+    max-width: 380px;
+  }
+
+  img.App-logo {
+    height: 70px;
+  }
+
+  .coming-text {
+    font-size: 40px;
+  }
+
+  .sub-text {
+    font-size: 18px;
+  }
+
+  .backdrop {
+    padding: 10vh 5px;
+  }
+
+  .modal-container {
+    height: 435px;
+    width: 360px;
+  }
+
+  .google-form {
+    width: 425px;
+    margin-top: 10px;
+  }
+
+  .hotel-img {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 500px) {
+  .container {
+    max-width: 480px;
+  }
+
+  img.App-logo {
+    height: 80px;
+  }
+
+  .coming-text {
+    font-size: 40px;
+  }
+
+  .sub-text {
+    font-size: 18px;
+  }
+
+  .backdrop {
+    padding: 10vh 5px;
+  }
+
+  .modal-container {
+    height: 435px;
+    width: 400px;
+  }
+
+  .google-form {
+    width: 465px;
+    margin-top: 10px;
+  }
+
+  .call-out img {
+    height: 60px;
+  }
+
+  .popup-section .popup-icon-col {
+    max-width: 75px !important;
+  }
+
+  .parking-map {
+    height: 400px !important;
+  }
+
+  .section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: column-reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+
+  .hero header {
+    height: 1200px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 750px;
+  }
+
+  img.App-logo {
+    height: 100px;
+  }
+
+  .coming-text {
+    font-size: 50px;
+  }
+
+  .sub-text {
+    font-size: 24px;
+  }
+
+  .backdrop {
+    padding: 150px;
+  }
+
+  .modal-container {
+    height: 420px;
+    width: 500px;
+  }
+
+  .google-form {
+    width: 560px;
+    margin-top: 0px;
+  }
+
+  .image-area {
+    display: block !important;
+  }
+
+  .venue-map {
+    height: 400px !important;
+  }
+
+  .hotel-img {
+    width: unset;
+    height: 150px;
+  }
+
+  .amnenities-list {
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+    -webkit-flex-direction: row !important;
+        -ms-flex-direction: row !important;
+            flex-direction: row !important;
+  }
+  .amnenities-list img {
+    height: 100px !important;
+    width: unset;
+  }
+}
+@media screen and (min-width: 992px) {
+  .container {
+    max-width: 970px;
+  }
+
+  img.App-logo {
+    height: 150px;
+  }
+
+  .coming-text {
+    font-size: 60px;
+  }
+
+  .sub-text {
+    font-size: 30px;
+  }
+
+  .backdrop {
+    padding: 150px;
+  }
+
+  .modal-container {
+    height: 420px;
+    width: 500px;
+  }
+
+  .google-form {
+    width: 560px;
+    margin-top: 0px;
+  }
+
+  .section {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+
+  .twitter-zone {
+    display: block;
+  }
+
+  .updates h2 {
+    text-align: left;
+  }
+
+  .call-out {
+    width: unset !important;
+    margin: 30px !important;
+  }
+
+  .sign-up-btn {
+    width: 90% !important;
+    margin: 0px !important;
+  }
+
+  .nav-bar .nav-container .top-nav .nav-date {
+    display: -webkit-box !important;
+    display: -webkit-flex !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+
+  .nav-bar .nav-container {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+    -webkit-flex-direction: column !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+
+  .nav-bar .nav-container .nav-menu .nav-small div[role=button] {
+    position: fixed !important;
+  }
+
+  .nav-bar .nav-container .nav-menu {
+    margin: 10px 0px !important;
+    -webkit-box-flex: 1 !important;
+    -webkit-flex: 1 !important;
+        -ms-flex: 1 !important;
+            flex: 1 !important;
+    display: block !important;
+    -webkit-box-align: center !important;
+    -webkit-align-items: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+  }
+
+  .nav-bar .nav-container .top-nav {
+    padding-bottom: 0px;
+  }
+
+  .section {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+
+  .hero header {
+    height: 800px;
+  }
+
+  .venue-section {
+    padding: 100px 0px 10px 0px !important;
+  }
+
+  .venue-hotel {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+
+  img.App-logo {
+    height: 150px;
+  }
+
+  .coming-text {
+    font-size: 60px;
+  }
+
+  .sub-text {
+    font-size: 30px;
+  }
+
+  .backdrop {
+    padding: 150px;
+  }
+
+  .modal-container {
+    height: 420px;
+    width: 500px;
+  }
+
+  .google-form {
+    width: 560px;
+    margin-top: 0px;
+  }
+}

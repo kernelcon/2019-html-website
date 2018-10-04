@@ -1,0 +1,127 @@
+.venue-section {
+  padding: 100px 0px 10px 0px;
+}
+.venue-section .title {
+  margin: 30px 0px;
+}
+.venue-section .call-out {
+  margin-left: 0px;
+  width: 580px;
+  height: 500px;
+}
+.venue-hotel-block {
+  margin: 20px 0px;
+}
+
+.venue-text {
+  color: #000;
+  font-weight: 500;
+}
+
+.hotel-amn-heading {
+  color: #000;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.hotel-sub-text {
+  color: #000;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.venue-sub-text {
+  color: #000;
+  font-weight: 300;
+  font-size: 16px;
+}
+.venue-sub-text a {
+  color: #cfad7d;
+}
+
+.venue-hightlight-text {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.venue-hotel-title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.venue-hotel-info {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 10px;
+}
+
+.venue-hotel {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.venue-hotel .venue-location {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+.venue-hotel .venue-reservation {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0px 30px;
+}
+
+.amnenities-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 10px 0px;
+}
+
+.amnenities-col {
+  padding: 0px 15px;
+}
+
+.map-container {
+  margin-top: 20px;
+  overflow: hidden;
+  height: 240px;
+}
+
+.place-card-medium {
+  /* hide annoying, pointless block in map */
+  display: none !important;
+}
+
+.venue-hotel-block {
+  padding: 10px 0px;
+}
