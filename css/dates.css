@@ -1,0 +1,36 @@
+.dates-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  margin-left: -20px;
+}
+.dates-list .date-box {
+  font-weight: 300;
+  padding: 10px;
+  font-size: 14px;
+  background-color: #fff;
+  width: 200px;
+  margin: 20px;
+  border-left: 6px solid #cfad7d;
+}
+.dates-list .date-box .dl-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+.dates-list .date-box .dl-description {
+  margin-top: 3px;
+}
+.dates-list .date-box .dl-date {
+  margin-top: 5px;
+  color: #cfad7d;
+}

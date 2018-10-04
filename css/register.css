@@ -1,0 +1,30 @@
+.updates {
+  padding-bottom: 30px;
+}
+
+.tagline {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.call-to-order {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.call-to-order a {
+  color: #cfad7d;
+}
+
+.volunteer-btn {
+  width: 200px;
+  float: left;
+}
+
+.register-section, .volunteer-section {
+  margin-bottom: 30px;
+  display: inline-block;
+}

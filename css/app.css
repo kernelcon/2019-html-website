@@ -38,6 +38,37 @@ h1, h2 {
   display: flex;
 }
 
+.heading-marg {
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.highlight-text {
+  color: #cfad7d;
+  font-weight: 700 !important;
+}
+
+.text-block {
+  padding-bottom: 20px !important;
+}
+.text-block {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+.text-block h3 {
+  font-size: 28px;
+  font-weight: 500;
+}
+.text-block h4 {
+  font-size: 20px;
+  font-weight: 300;
+}
+.text-block a {
+  color: #cfad7d;
+}
 
 .nav-bar {
   padding: 20px 0px 0px 0px;
