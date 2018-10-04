@@ -1,0 +1,237 @@
+.in-touch-icons {
+  width: 100px;
+  fill: #333;
+}
+.in-touch-icons:first-child {
+  margin-right: 40px;
+}
+
+.oc-list {
+  margin-top: 30px !important;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+.oc-member {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.oc-member {
+  width: 222px;
+}
+.oc-member .oc-name {
+  font-size: 20px;
+  font-weight: 400;
+}
+.oc-member .oc-title {
+  color: #cfad7d;
+  text-transform: uppercase;
+}
+.oc-member .oc-title, .oc-member .oc-twitter {
+  font-size: 14px;
+}
+.oc-member .oc-twitter {
+  color: black;
+}
+
+.organizers .tab-title {
+  font-weight: 500;
+  padding: 0px 0px 10px 0px;
+}
+
+.oc-member-box {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.oc-member-box .oc-member-img {
+  margin-right: 10px;
+}
+
+.faq-question {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px 10px;
+  font-size: 16px;
+  font-weight: 300;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #eee;
+}
+.faq-question .question {
+  font-weight: 500;
+}
+.faq-answer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 16px;
+  font-weight: 300;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 0 0 23px;
+}
+.faq-q, .faq-a {
+  font-size: 30px;
+  font-weight: 500;
+  padding-right: 10px;
+  max-width: 20px;
+  line-height: 60px;
+}
+.question, .answer {
+  padding-left: 10px;
+  min-height: 30px;
+  border-left: 3px solid #cfad7d;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.answer {
+  margin: 15px 0px;
+}
+
+.rc-collapse > .rc-collapse-item > .rc-collapse-header {
+  height: inherit !important;
+  line-height: unset !important;
+  text-indent: 0px !important;
+  color: #666 !important;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 2px solid #eee;
+}
+
+.rc-collapse {
+  border: none !important;
+  width: 100% !important;
+}
+
+.rc-collapse-content {
+  padding: 0 38px !important;
+}
+
+i.arrow {
+  margin-left: 15px;
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Acordeon styles */
+.tab {
+  position: relative;
+  margin-bottom: 1px;
+  width: 100%;
+  overflow: hidden;
+}
+.tab input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+.tab label {
+  position: relative;
+  display: block;
+  padding: 0 0 0 1em;
+  font-weight: bold;
+  line-height: 3;
+  cursor: pointer;
+}
+.tab-content {
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: max-height .35s;
+  -o-transition: max-height .35s;
+  transition: max-height .35s;
+}
+.tab-content p {
+  margin: 1em;
+}
+/* :checked */
+.tab input:checked ~ .tab-content {
+  max-height: 100vh;
+}
+/* Icon */
+.tab label::after {
+  position: absolute;
+  right: 0;
+  top: 5px;
+  display: block;
+  width: 3em;
+  height: 3em;
+  line-height: 3;
+  text-align: center;
+  -webkit-transition: all .35s;
+  -o-transition: all .35s;
+  transition: all .35s;
+  font-size: medium;
+}
+.tab input[type=checkbox] + label::after {
+  content: "+";
+}
+.tab input[type=radio] + label::after {
+  content: "\25BC";
+}
+.tab input[type=checkbox]:checked + label::after {
+  transform: rotate(315deg);
+}
+.tab input[type=radio]:checked + label::after {
+  transform: rotateX(180deg);
+}
