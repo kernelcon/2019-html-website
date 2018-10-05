@@ -300,6 +300,10 @@
             flex-direction: column-reverse;
   }
 
+  .event{
+    flex-direction: row !important;
+  }
+
   .hero header {
     height: 1200px;
   }
