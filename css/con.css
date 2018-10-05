@@ -129,3 +129,8 @@
   font-size: 24px;
   margin-bottom: 30px;
 }
+
+.event {
+  display: flex;
+  flex-direction: column;
+}
