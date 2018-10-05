@@ -1144,12 +1144,20 @@ button:hover:before {
   .sky-tabs-response-to-switcher.sky-tabs-anim-flip > ul > li {
     -webkit-transform: rotateX(-90deg);
   }
+
+.icon-img{
+  margin-bottom: -7px !important;
+  margin-left: 10px;
+}
+
 }
 
 
 
-
-
+.icon-img{
+  margin-bottom: -4px;
+  margin-right: 10px;
+}
 
 
 * {
