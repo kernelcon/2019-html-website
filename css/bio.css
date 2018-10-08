@@ -1,0 +1,20 @@
+
+.bio .bio-text-area .bio-name {
+  margin: 30px 0px 0px 0px;
+}
+.bio .bio-text-area .bio-title {
+  -webkit-margin-before: 10px;
+          margin-block-start: 10px;
+  color: #cfad7d;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+.bio .bio-text-area .bio-text {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+}
+.bio .bio-image-area {
+  float: right;
+  padding: 40px 10px 10px 20px;
+}
