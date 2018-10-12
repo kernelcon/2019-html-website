@@ -3,7 +3,7 @@ html, header, body {
   padding: 0;
   margin: 0;
   height: 100%;
-  background-color: #eee;
+  background-color: #f4f4f4;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -70,7 +70,9 @@ h1, h2 {
 .text-block a {
   color: #cfad7d;
 }
-
+.email-address {
+  text-decoration: underline;
+}
 .nav-bar {
   padding: 20px 0px 0px 0px;
   left: 0;
