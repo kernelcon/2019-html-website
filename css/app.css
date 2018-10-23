@@ -1166,3 +1166,17 @@ button:hover:before {
   box-sizing: border-box;
 }
 
+
+.spons-block {
+  margin-top: 30px;
+}
+
+.sponsor-gold {
+  font-family: 'Jura', 'Montserrat', sans-serif;
+  margin-bottom: 10px;
+  font-weight: 900 !important;
+  color: #cfad7d;
+}
+.sponsor-sw-logo {
+  margin-left: -40px;
+}
