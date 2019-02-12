@@ -1,0 +1,194 @@
+
+.keynote-section {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.kernelcon-text-area {
+  display: flex;
+  flex-direction: column;
+}
+
+.bio-name {
+  margin: 30px 0px 0px 0px;
+}
+.bio-title {
+  color: #cfad7d !important;
+  font-weight: 100;
+  letter-spacing: 2px;
+  margin:0px !important;
+}
+.bio-text {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.keynote-image-area {
+  padding: 40px 10px 10px 20px;
+}
+
+@charset "UTF-8";
+.speakers .title {
+  margin-top: 0px;
+}
+
+.speaker-title {
+  margin-bottom:20px !important;
+}
+
+.speaker-section {
+  margin-top: 30px;
+}
+
+.keynote-section {
+  display: flex;
+}
+.keynote-section .kernelcon-text-area {
+  display: flex;
+  flex-direction: column;
+}
+.keynote-section .bio-name {
+  margin: 30px 0px 0px 0px;
+}
+.keynote-section .bio-title {
+  margin-block-start: 10px;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+.keynote-section .bio-title a {
+  color: #ad974f;
+  text-decoration: none;
+}
+.keynote-section .bio-title a:not(:first-child):before {
+  content: "•";
+  color: #ad974f;
+  margin: 0px 8px;
+}
+.keynote-section .bio-text {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+}
+.keynote-section .keynote-image-area {
+  padding: 40px 10px 10px 20px;
+}
+
+.speaker-section .title {
+  padding-bottom: 30px;
+}
+.speaker-section .title-reversed {
+  padding: 20px 0px;
+}
+.speaker-section .speakers {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.speaker-section .speakers .individual-speaker-section {
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  width: 460px;
+}
+.speaker-section .speakers .individual-speaker-section .bio-image {
+  border-radius: 50%;
+}
+.speaker-section .speakers .individual-speaker-section h3 {
+  font-size: 1.25em;
+  font-family: "Jura", "Montserrat", sans-serif;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.speaker-section .speakers .individual-speaker-section .speaker-image {
+  display: flex;
+  flex-direction: column;
+  padding-right: 15px;
+}
+.speaker-section .speakers .individual-speaker-section .speaker-wording {
+  display: flex;
+  flex-direction: column;
+}
+.speaker-section .speakers .individual-speaker-section .speaker-wording .speaker-titles {
+  color: #ad974f;
+  /*margin-bottom: 10px;*/
+}
+.speaker-section .speakers .individual-speaker-section .speaker-wording .speaker-titles span:not(:first-child):before {
+  content: "•";
+  color: #ad974f;
+  margin: 0px 8px;
+}
+.speaker-section .speakers .individual-speaker-section .speaker-wording .bio-image {
+  float: right;
+  margin-top: -30px;
+  padding: 0px 5px 5px 5px;
+  width: 130px;
+  height: 130px;
+}
+.speaker-section .speakers .individual-speaker-section .speaker-wording p {
+  margin-block-start: 0.5em;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+/************
+    TALKS
+*************/
+.talks h1 {
+  margin-bottom: 20px;
+}
+.talks .single-talk {
+  padding-bottom: 30px;
+}
+.talks .single-talk .talk-title {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 900;
+  font-family: "Jura", "Roboto", sans-serif;
+}
+.talks .single-talk .talk-sub-title {
+  display: flex;
+  padding: 20px 0px;
+  align-items: center;
+}
+.talks .single-talk .talk-sub-title .speaker-name {
+  padding-right: 20px;
+  font-size: 20px;
+  font-family: "Jura";
+  color: #ad974f;
+}
+.talks .single-talk .talk-sub-title .speaker-icon-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0px 20px;
+  border-left: 1px solid #777;
+}
+.talks .single-talk .talk-sub-title .speaker-icon-bar :not(:first-child) {
+  margin-left: 20px;
+}
+.talks .single-talk .talk-sub-title .speaker-icon-bar .speaker-icons {
+  width: 20px;
+  fill: #ad974f;
+  display: flex;
+}
+.talks .single-talk .talk-sub-title .speaker-icon-bar .speaker-icons:hover {
+  cursor: pointer;
+  fill: #cfad7d;
+}
+.talks .single-talk .talk-sub-title .length {
+  white-space: nowrap;
+  font-family: "Jura";
+  padding-left: 20px;
+  border-left: 1px solid #777;
+}
+.talks .single-talk .abstract {
+  font-family: "Roboto", sans-serif;
+  line-height: 20px;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
