@@ -170,6 +170,11 @@
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .talk-description {
+      overflow: hidden;
+      font-size: 10px;
+      width: 100%;
+  }
 }
 @media screen and (min-width: 380px) {
   .container {
@@ -307,6 +312,11 @@
   .hero header {
     height: 1200px;
   }
+.talk-description {
+    overflow: hidden;
+    font-size: 12px;
+    width: 100%;
+}
 }
 @media screen and (min-width: 768px) {
   .container {
@@ -519,4 +529,10 @@
     width: 560px;
     margin-top: 0px;
   }
+  
+.talk-description {
+    overflow: hidden;
+    font-size: 14px;
+    width: 100%;
+}
 }

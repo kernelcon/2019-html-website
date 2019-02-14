@@ -192,3 +192,198 @@
   font-weight: 300;
   letter-spacing: 0.5px;
 }
+
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.schedule-tabs {
+  font-family: Lato, Gotham, Arial;
+}
+.schedule-tabs .tabs {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.schedule-tabs .tabs li {
+  float: left;
+  width: 40%;
+  display: block;
+}
+.schedule-tabs .tabs input[type=radio] {
+  display: none;
+}
+.schedule-tabs .tabs label {
+  display: block;
+  padding: 25px 0;
+  font-weight: normal;
+  text-transform: uppercase;
+  text-align: center;
+  background: #d9d9d6;
+  color: #707372;
+  cursor: pointer;
+  position: relative;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.schedule-tabs .tabs label:hover {
+  background: #2d2c30;
+  color: #ffffff;
+}
+.schedule-tabs .tabs label span {
+  display: block;
+  font-size: 6em;
+  line-height: 1;
+  font-weight: 900;
+}
+.schedule-tabs .tabs .tab-content {
+  z-index: 2;
+  display: none;
+  overflow: hidden;
+  width: 100%;
+  font-size: 17px;
+  line-height: 25px;
+  padding: 25px;
+  position: absolute;
+  top: 184px;
+  left: 0;
+  background: #ffffff;
+}
+.schedule-tabs .tabs [id^=tab]:checked + label {
+  background: #cfad7d;
+  color: #ffffff;
+}
+.schedule-tabs .tabs [id^=tab]:checked + label:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 20px);
+  border: 20px solid transparent;
+  border-bottom-color: #fff;
+}
+.schedule-tabs .tabs [id^=tab]:checked ~ [id^=tab-content] {
+  display: block;
+}
+.schedule-tabs table {
+  width: 100%;
+}
+.schedule-tabs tr:nth-of-type(even) {
+  background-color: #ffffff;
+}
+.schedule-tabs tr:first-of-type {
+  padding-top: 50px;
+}
+.schedule-tabs td {
+  border: 0;
+  width: 75%;
+  vertical-align: top;
+  padding: 15px;
+}
+.schedule-tabs td:nth-of-type(2n+1) {
+  width: 25%;
+  text-align: right;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.schedule-tabs .session-title {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.schedule-tabs .session-description {
+  display: block;
+}
+.schedule-tabs .grid-wrapper-friday {
+  margin-top: 20px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-rows: 42px 42px 28px 112px 112px 112px 42px 42px 42px 112px 42px 42px 42px 112px 112px 112px 28px;
+  grid-template-columns: calc(50% - 10px) calc(50% - 10px);
+  background-color: #fff;
+  color: #444;
+  padding-bottom: 30px;
+  font-size: 14px;
+}
+.schedule-tabs .grid-wrapper-saturday {
+  margin-top: 20px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-rows: 42px 42px 112px 112px 112px 112px 112px 42px 42px 42px 112px 112px 112px 28px;
+  grid-template-columns: calc(50% - 10px) calc(50% - 10px);
+  background-color: #fff;
+  color: #444;
+  padding-bottom: 30px;
+  font-size: 14px;
+}
+.schedule-tabs .box {
+  background-color: #eee;
+  color: #292828;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-left: solid 8px #cfad7d;
+  padding: 5px 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 0px 1px 2px 0px #c7c7c7;
+}
+.schedule-tabs .box .talk-time {
+  color: #ad974f;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50px !important;
+  margin-right: 10px;
+}
+.schedule-tabs .schedule {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: calc(1.75vw + 1.75vh);
+  font-family: "Jura", "Roboto", sans-serif;
+}
+.schedule-tabs .track {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  text-transform: uppercase;
+  font-family: "Jura", "Roboto", sans-serif;
+  font-size: 28px;
+  color: #fff;
+  background: #cfad7d;
+  /*background: #ad974f99;*/
+}
+.schedule-tabs .both-tracks {
+  grid-column: 1/3;
+}
