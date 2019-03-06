@@ -1,56 +1,7 @@
-.spons-block {
-  margin-top: 30px;
-}
-.spons-groups {
-  text-align: center;
-  padding-bottom: 50px !important;
-}
-.spons-groups h3 {
-  font-family: "Montserrat", sans-serif;
-  margin-bottom: 10px;
-  font-weight: 900;
-  font-size: calc(3vh + 3vw);
-  text-transform: uppercase;
-}
-.spons-groups h4 {
-  font-family: "Montserrat", sans-serif;
-  margin-bottom: 10px;
-  font-weight: 900;
-  font-size: calc(2.5vh + 2.5vw);
-  text-transform: uppercase;
-}
-.spons-img {
-  max-width: 100%;
-  max-height: 100%;
-}
-.gold-spons {
-  width: calc(30vh + 30vw);
-}
-.silver-spons {
-  width: calc(25vh + 25vw);
-}
-.other-spons {
-  width: calc(20vh + 20vw);
-}
-.spons-text-block {
-  font-size: calc(1vh + 1vw);
-}
-.party-text {
-  font-family: "Jura", "Montserrat", sans-serif;
-  font-size: calc(1.2vh + 1.2vw);
-  color: #cfad7d;
-  font-weight: 500;
-}
-
-
-
 .no-margin-bottom {
   margin-bottom: 0 !important;
 }
 
-/*{
-  margin-top: 30px;
-}*/
 .spons-groups {
   text-align: center;
   padding-bottom: 50px !important;
@@ -118,7 +69,7 @@
 }
 .spons-groups .spons-block .other-spons {
   max-width: calc(18vh + 18vw);
-  max-height: calc(15vh + 10vw);
+  max-height: calc(15vh + 5vw);
 }
 .spons-groups .spons-block .spons-text-block {
   font-size: calc(1vh + 1vw);
@@ -126,7 +77,7 @@
 .spons-groups .spons-block .spons-text-block .party-text {
   font-family: "Jura", "Montserrat", sans-serif;
   font-size: calc(1.2vh + 1.2vw);
-  color: #cfad7d;;
+  color: #cfad7d;
   font-weight: 500;
 }
 .spons-groups .spons-block .foodbev-spons {
