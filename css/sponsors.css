@@ -6,9 +6,6 @@
   text-align: center;
   padding-bottom: 50px !important;
 }
-.spons-groups .spons-block {
-  padding-top: 30px;
-}
 .spons-groups .spons-block .spons-title {
   font-family: "Montserrat", sans-serif;
   margin-bottom: 30px;
@@ -97,6 +94,13 @@
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
 }
+
+.single-foodbev-spons {
+  display: flex;
+  flex-direction: column;
+}
+
 .spons-groups .spons-block .foodbev-spons .single-foodbev-spons .fdbev-spons {
   max-width: calc(15vh + 15vw);
+  margin-bottom: 20px;
 }
