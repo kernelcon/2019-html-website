@@ -6,6 +6,10 @@
   text-align: center;
   padding-bottom: 50px !important;
 }
+.spons-block {
+  display: flex;
+  flex-direction: column;
+}
 .spons-groups .spons-block .spons-title {
   font-family: "Montserrat", sans-serif;
   margin-bottom: 30px;
