@@ -846,7 +846,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  font-size: calc(1.75vw + 1.75vh);
+  font-size: calc(1.35vw + 1.35vh);
   font-family: "Jura", "Roboto", sans-serif;
   margin-bottom: 20px;
 }
