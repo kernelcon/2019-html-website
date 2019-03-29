@@ -410,3 +410,765 @@
   grid-row-start: 8;
   grid-row-end: 11;
 }
+
+@charset "UTF-8";
+.speakers .title {
+  margin-top: 0px;
+}
+
+.speaker-section {
+  margin-top: 30px;
+  padding-bottom: 50px;
+}
+
+.keynote-section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.keynote-section .kernelcon-text-area {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.keynote-section .bio-name {
+  margin: 30px 0px 0px 0px;
+}
+.keynote-section .bio-title {
+  -webkit-margin-before: 10px;
+          margin-block-start: 10px;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+.keynote-section .bio-title a {
+  color: #cfad7d;
+  text-decoration: none;
+}
+.keynote-section .bio-title a:not(:first-child):before {
+  content: "•";
+  color: #ad974f;
+  margin: 0px 8px;
+}
+.keynote-section .bio-text {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+}
+.keynote-section .keynote-image-area {
+  padding: 40px 10px 10px 20px;
+}
+
+.speaker-section .title {
+  padding-bottom: 30px;
+}
+.speaker-section .title-reversed {
+  padding: 20px 0px;
+}
+.speaker-section .speakers {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.speaker-section .speakers .individual-speaker-section {
+  padding-bottom: 30px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 460px;
+}
+.speaker-section .speakers .individual-speaker-section .bio-image {
+  border-radius: 50%;
+}
+.speaker-section .speakers .individual-speaker-section h3 {
+  font-size: 1.25em;
+  font-family: "Jura", "Montserrat", sans-serif;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.speaker-section .speakers .individual-speaker-section .speaker-image {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-right: 15px;
+}
+.speaker-section .speakers .individual-speaker-section .speaker-wording {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.speaker-section .speakers .individual-speaker-section .speaker-wording a {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Jura";
+  color: black;
+}
+.speaker-section .speakers .individual-speaker-section .speaker-wording .speaker-titles {
+  color: #ad974f;
+  /*margin-bottom: 10px;*/
+}
+.speaker-section .speakers .individual-speaker-section .speaker-wording .speaker-titles span:not(:first-child):before {
+  content: "•";
+  color: #ad974f;
+  margin: 0px 8px;
+}
+.speaker-section .speakers .individual-speaker-section .speaker-wording .bio-image {
+  float: right;
+  margin-top: -30px;
+  padding: 0px 5px 5px 5px;
+  width: 130px;
+  height: 130px;
+}
+.speaker-section .speakers .individual-speaker-section .speaker-wording p {
+  -webkit-margin-before: 0.5em;
+          margin-block-start: 0.5em;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+/************
+    TALKS
+*************/
+.talks h1 {
+  margin-bottom: 20px;
+}
+.talks .single-talk {
+  padding-bottom: 30px;
+}
+.talks .single-talk .talk-title {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 900;
+  font-family: "Jura", "Roboto", sans-serif;
+}
+.talks .single-talk .talk-sub-title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px 0px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.talks .single-talk .talk-sub-title .speaker-name {
+  padding-right: 20px;
+  color: #ad974f;
+}
+.talks .single-talk .talk-sub-title .speaker-name a {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Jura";
+  color: #ad974f;
+}
+.talks .single-talk .talk-sub-title .speaker-icon-bar {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0px 20px;
+  border-left: 1px solid #777;
+}
+.talks .single-talk .talk-sub-title .speaker-icon-bar :not(:first-child) {
+  margin-left: 20px;
+}
+.talks .single-talk .talk-sub-title .speaker-icon-bar .speaker-icons {
+  width: 20px;
+  fill: #ad974f;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.talks .single-talk .talk-sub-title .speaker-icon-bar .speaker-icons:hover {
+  cursor: pointer;
+  fill: #ad974f;
+}
+.talks .single-talk .talk-sub-title .length {
+  white-space: nowrap;
+  font-family: "Jura";
+  padding: 0px 20px;
+  border-left: 1px solid #777;
+  border-right: 1px solid #777;
+}
+.talks .single-talk .talk-sub-title .technical {
+  margin-left: 20px;
+  font-family: "Jura";
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.talks .single-talk .talk-sub-title .technical .tech-label {
+  padding-left: 30px;
+}
+.talks .single-talk .abstract {
+  font-family: "Roboto", sans-serif;
+  line-height: 20px;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.schedule-tabs {
+  font-family: Lato, Gotham, Arial;
+}
+.schedule-tabs .tabs {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.schedule-tabs .tabs li {
+  float: left;
+  width: 40%;
+  display: block;
+}
+.schedule-tabs .tabs input[type=radio] {
+  display: none;
+}
+.schedule-tabs .tabs label {
+  display: block;
+  padding: 25px 0;
+  font-weight: normal;
+  text-transform: uppercase;
+  text-align: center;
+  background: #d9d9d6;
+  color: #707372;
+  cursor: pointer;
+  position: relative;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.schedule-tabs .tabs label:hover {
+  background: #2d2c30;
+  color: #ffffff;
+}
+.schedule-tabs .tabs label span {
+  display: block;
+  font-size: 6em;
+  line-height: 1;
+  font-weight: 900;
+}
+.schedule-tabs .tabs .tab-content {
+  z-index: 2;
+  display: none;
+  overflow: hidden;
+  width: 100%;
+  font-size: 17px;
+  line-height: 25px;
+  padding: 25px;
+  position: absolute;
+  top: 184px;
+  left: 0;
+  background: #ffffff;
+}
+.schedule-tabs .tabs [id^=tab]:checked + label {
+  background: #cfad7d;
+  color: #ffffff;
+}
+.schedule-tabs .tabs [id^=tab]:checked + label:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 20px);
+  border: 20px solid transparent;
+  border-bottom-color: #fff;
+}
+.schedule-tabs .tabs [id^=tab]:checked ~ [id^=tab-content] {
+  display: block;
+}
+.schedule-tabs table {
+  width: 100%;
+}
+.schedule-tabs tr:nth-of-type(even) {
+  background-color: #ffffff;
+}
+.schedule-tabs tr:first-of-type {
+  padding-top: 50px;
+}
+.schedule-tabs td {
+  border: 0;
+  width: 75%;
+  vertical-align: top;
+  padding: 15px;
+}
+.schedule-tabs td:nth-of-type(2n+1) {
+  width: 25%;
+  text-align: right;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.schedule-tabs .session-title {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.schedule-tabs .session-description {
+  display: block;
+}
+.schedule-tabs .grid-wrapper-friday {
+  margin-top: 20px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-rows: 42px 42px 42px 28px 112px 34px 112px 42px 42px 112px 112px 112px 42px 42px 42px 112px 112px 112px 300px 30px;
+  grid-template-columns: calc(50% - 10px) calc(50% - 10px);
+  background-color: #fff;
+  color: #444;
+  padding-bottom: 30px;
+  font-size: 14px;
+}
+.schedule-tabs .grid-wrapper-friday a {
+  text-decoration: none;
+}
+.schedule-tabs .grid-wrapper-saturday {
+  margin-top: 20px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-rows: 42px 42px 42px 28px 112px 34px 112px 42px 42px 112px 112px 112px 42px 42px 42px 112px 112px 66px 30px;
+  grid-template-columns: calc(50% - 10px) calc(50% - 10px);
+  background-color: #fff;
+  color: #444;
+  padding-bottom: 30px;
+  font-size: 14px;
+}
+.schedule-tabs .grid-wrapper-saturday a {
+  text-decoration: none;
+}
+.schedule-tabs .eagle {
+  grid-row-start: 14;
+  grid-row-end: 16;
+}
+.schedule-tabs .mult-rows {
+  grid-row-start: 8;
+  grid-row-end: 11;
+}
+.schedule-tabs .box {
+  background-color: #eee;
+  color: #292828;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-left: solid 8px #cfad7d;
+  padding: 5px 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  overflow: hidden;
+  box-shadow: 0px 1px 2px 0px #c7c7c7;
+}
+.schedule-tabs .box .talk-time {
+  color: #ad974f;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 35px !important;
+  min-width: 35px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.schedule-tabs .schedule {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: calc(1.75vw + 1.75vh);
+  font-family: "Jura", "Roboto", sans-serif;
+  margin-bottom: 20px;
+}
+.schedule-tabs .track {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  text-transform: uppercase;
+  font-family: "Jura", "Roboto", sans-serif;
+  font-size: calc(1vw + 1vh);
+  color: #fff;
+  background: #cfad7d;
+  /*background: #ad974f99;*/
+}
+.schedule-tabs .both-tracks {
+  grid-column: 1/3;
+}
+
+.con-schedule-tabs {
+  font-family: Lato, Gotham, Arial;
+  /******************
+      Columns
+  /****************** */
+  /******************
+      Rows
+  /****************** */
+  /******************
+      Combos
+  /****************** */
+}
+.con-schedule-tabs .con-sched-tabs {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.con-schedule-tabs .con-sched-tabs li {
+  float: left;
+  width: 40%;
+  display: block;
+}
+.con-schedule-tabs .con-sched-tabs input[type=radio] {
+  display: none;
+}
+.con-schedule-tabs .con-sched-tabs label {
+  display: block;
+  padding: 25px 0;
+  font-weight: normal;
+  text-transform: uppercase;
+  text-align: center;
+  background: #d9d9d6;
+  color: #707372;
+  cursor: pointer;
+  position: relative;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.con-schedule-tabs .con-sched-tabs label:hover {
+  background: #2d2c30;
+  color: #ffffff;
+}
+.con-schedule-tabs .con-sched-tabs label span {
+  display: block;
+  font-size: 6em;
+  line-height: 1;
+  font-weight: 900;
+}
+.con-schedule-tabs .con-sched-tabs .tab-content {
+  z-index: 2;
+  display: none;
+  overflow: hidden;
+  width: 100%;
+  font-size: 17px;
+  line-height: 25px;
+  padding: 25px;
+  position: absolute;
+  top: 184px;
+  left: 0;
+  background: #ffffff;
+}
+.con-schedule-tabs .con-sched-tabs [id^=con-sched]:checked + label {
+  background: #cfad7d;
+  color: #ffffff;
+}
+.con-schedule-tabs .con-sched-tabs [id^=con-sched]:checked + label:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 20px);
+  border: 20px solid transparent;
+  border-bottom-color: #fff;
+}
+.con-schedule-tabs .tabs [id^=con-sched]:checked ~ [id^=tab-content] {
+  display: block;
+}
+.con-schedule-tabs table {
+  width: 100%;
+}
+.con-schedule-tabs tr:nth-of-type(even) {
+  background-color: #ffffff;
+}
+.con-schedule-tabs tr:first-of-type {
+  padding-top: 50px;
+}
+.con-schedule-tabs td {
+  border: 0;
+  width: 75%;
+  vertical-align: top;
+  padding: 15px;
+}
+.con-schedule-tabs td:nth-of-type(2n+1) {
+  width: 25%;
+  text-align: right;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.con-schedule-tabs .session-title {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.con-schedule-tabs .session-description {
+  display: block;
+}
+.con-schedule-tabs .grid-wrapper-thursday {
+  margin-top: 20px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-rows: 42px 42px 300px;
+  grid-template-columns: calc(100% - 10px);
+  background-color: #fff;
+  color: #444;
+  padding-bottom: 30px;
+  font-size: 14px;
+}
+.con-schedule-tabs .grid-wrapper-thursday a {
+  text-decoration: none;
+}
+.con-schedule-tabs .grid-wrapper-friday {
+  margin-top: 20px;
+  display: grid;
+  grid-template-rows: 42px 42px 80px 35px 35px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 30px;
+  background-color: #fff;
+  color: #444;
+  padding-bottom: 30px;
+  font-size: 14px;
+}
+.con-schedule-tabs .grid-wrapper-friday a {
+  text-decoration: none;
+}
+.con-schedule-tabs .middleLabel {
+  border-left: 1px solid #cfad7d;
+  border-right: 1px solid #cfad7d;
+}
+.con-schedule-tabs .grid-wrapper-saturday {
+  margin-top: 20px;
+  display: grid;
+  grid-template-rows: 42px 42px 80px 35px 35px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 30px;
+  background-color: #fff;
+  color: #444;
+  padding-bottom: 30px;
+  font-size: 14px;
+}
+.con-schedule-tabs .grid-wrapper-saturday a {
+  text-decoration: none;
+}
+.con-schedule-tabs .coyote {
+  grid-column: 1;
+}
+.con-schedule-tabs .penguin {
+  grid-column: 2;
+}
+.con-schedule-tabs .jctf {
+  grid-column: 3;
+}
+.con-schedule-tabs .vill {
+  grid-column: 4;
+}
+.con-schedule-tabs .vill-c {
+  grid-column: 5;
+}
+.con-schedule-tabs .morn {
+  grid-row-start: 4;
+  grid-row-end: 9;
+}
+.con-schedule-tabs .afternoon {
+  grid-row-start: 10;
+  grid-row-end: 14;
+}
+.con-schedule-tabs .closed {
+  grid-row-start: 4;
+  grid-row-end: 7;
+}
+.con-schedule-tabs .jctf-day1 {
+  grid-row-start: 8;
+  grid-row-end: 15;
+}
+.con-schedule-tabs .jctf-day2 {
+  grid-row-start: 7;
+  grid-row-end: 12;
+}
+.con-schedule-tabs .jctf-calc {
+  grid-row-start: 12;
+  grid-row-end: 15;
+}
+.con-schedule-tabs .vill-day1 {
+  grid-row-start: 7;
+  grid-row-end: 15;
+}
+.con-schedule-tabs .open-hard {
+  grid-row-start: 8;
+  grid-row-end: 10;
+}
+.con-schedule-tabs .wifi {
+  grid-row-start: 7;
+}
+.con-schedule-tabs .iot-1 {
+  grid-row-start: 10;
+}
+.con-schedule-tabs .iot-faq {
+  grid-row-start: 11;
+}
+.con-schedule-tabs .iot-2 {
+  grid-row-start: 12;
+}
+.con-schedule-tabs .open-close {
+  grid-row-start: 13;
+  grid-row-end: 15;
+}
+.con-schedule-tabs .open-sat {
+  grid-row-start: 9;
+  grid-row-end: 15;
+}
+.con-schedule-tabs .wv-close {
+  grid-row-start: 15;
+}
+.con-schedule-tabs .cp-workshops {
+  grid-column: 1/3;
+  grid-row-start: 9;
+  grid-row-end: 10;
+}
+.con-schedule-tabs .box {
+  background-color: #eee;
+  color: #292828;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-left: solid 8px #cfad7d;
+  padding: 5px 10px;
+  height: 100%;
+  overflow: hidden;
+  box-shadow: 0px 1px 2px 0px #c7c7c7;
+}
+.con-schedule-tabs .box .talk-time {
+  color: #ad974f;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50px !important;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.con-schedule-tabs .schedule {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: calc(1.75vw + 1.75vh);
+  font-family: "Jura", "Roboto", sans-serif;
+  margin-bottom: 20px;
+}
+.con-schedule-tabs .track {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  text-transform: uppercase;
+  font-family: "Jura", "Roboto", sans-serif;
+  font-size: calc(.6vw + .7vh);
+  color: #fff;
+  background: #cfad7d;
+  /*background: #ad974f99;*/
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  text-align: center;
+  padding: 0px 10px;
+}
+.con-schedule-tabs .villages {
+  list-style: none;
+}
+.con-schedule-tabs .two-tracks {
+  grid-column: 1/3;
+}
+.con-schedule-tabs .both-tracks {
+  grid-column: 1/6;
+}
